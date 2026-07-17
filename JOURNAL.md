@@ -21,3 +21,13 @@ Wired the Qi Receiver, caught some mistakes such as a 100nF capacitor that shoul
 <img width="4698" height="3326" alt="SCH_Schematic1_1-P1_2026-07-12" src="https://github.com/user-attachments/assets/919f318f-d3ed-4c31-85bd-8a4925b0e542" />
 
 **Total Time spent: 3 hours**
+
+# July 17: Power tree done
+
+Found a bunch of stuff that I wired wrong such as the TPS63020 FB loop wired wrong, its PG was tied to ground so you couldn't read the status, the I2C bus wasn't actually tied correctly and I had to learn about what it actually is and it's so interesting how little pieces of sillicon are so smart man. Anyways, there's also other stuff that was tied wrong and I had to check a bunch of datasheets and checked every pin, every connection and every wire and hopefully it's good now, bc if I do anything wrong here I'll basically have PCB that aren't gonna be able to get powered. and holy moly this schematic is getting huge
+
+<img width="4698" height="3326" alt="SCH_Schematic1_1-P1_2026-07-16" src="https://github.com/user-attachments/assets/6fc7bd76-85c2-48a5-bb75-413a97b8a0ff" />
+
+**Total Time spent: 2 hours**
+
+
