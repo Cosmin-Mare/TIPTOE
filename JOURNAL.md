@@ -1,4 +1,4 @@
----
+[SCH_Schematic1_2026-07-19.pdf](https://github.com/user-attachments/files/30157611/SCH_Schematic1_2026-07-19.pdf)---
 title: "TIPTOE"
 author: "Cosmin Mare"
 description: "Multi-unit surveillance system with motion detection, night vision and multiple communication modes. Deployable and waterproof , it's the perfect awareness device and it comes with an app for alerts, photo snapshots and video + audio streaming."
@@ -30,4 +30,16 @@ Found a bunch of stuff that I wired wrong such as the TPS63020 FB loop wired wro
 
 **Total Time spent: 2 hours**
 
+# July 19: Gang I finished the schematic
 
+Ok so it turns out once you actually understand what you're doing stuff gets easier + wiring power and qi coils is hard asf if that's the first pcb related thing you do and idk why I started with that but it seemed like the correct start given that without power nothing happens? anyways, I wired the LoRa, the camera, the mic and the IR LEDs and am completely done with the schematic. I checked and double checked everything, I did some mistakes on some resistors, I forgot about some wires and capacitors, but it's all good now hopefully (I sent the netlist to claude opus 4.8 and it said we're good so I hope we are lmao). I'll also send to forge channel to triple check but Idk if anyone's gonna look at everything💀. anyways, it was actually fun to do this, and I can't wait to do the layout for the actual PCB. Oh yeah I split everything up so now i have multiple pages! They got uploaded in the wrong order but it's 1am and I'm not changing it to the correct order rn i've done enough💀
+
+<img width="2362" height="1672" alt="SCH_Schematic1_7-IR_2026-07-19" src="https://github.com/user-attachments/assets/ff0085a3-c379-4d85-a16f-9643c9bece34" />
+<img width="2362" height="1672" alt="SCH_Schematic1_6-Mic_2026-07-19" src="https://github.com/user-attachments/assets/9ab4e3f6-fbac-4a42-a6a8-09171e102236" />
+<img width="1674" height="1186" alt="SCH_Schematic1_5-PIR_2026-07-19" src="https://github.com/user-attachments/assets/2be06940-6318-4b48-af97-86aa50287654" />
+<img width="2362" height="1672" alt="SCH_Schematic1_4-Camera_2026-07-19" src="https://github.com/user-attachments/assets/d76bab47-78ab-49d0-9604-975d8e387f68" />
+<img width="2362" height="1672" alt="SCH_Schematic1_3-LoRa_2026-07-19" src="https://github.com/user-attachments/assets/971662a5-b0fa-4680-961f-c4de7f584d16" />
+<img width="3332" height="2362" alt="SCH_Schematic1_2-Power Tree_2026-07-19" src="https://github.com/user-attachments/assets/e057bcde-fb2f-42cf-9696-9583f32af6b7" />
+<img width="2362" height="1672" alt="SCH_Schematic1_1-Main Board_2026-07-19" src="https://github.com/user-attachments/assets/e1db0436-e249-470d-9910-f166b6d42e6e" />
+
+**Total Time spent: 3 hours**
