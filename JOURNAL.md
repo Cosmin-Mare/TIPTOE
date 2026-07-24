@@ -1,4 +1,3 @@
-[SCH_Schematic1_2026-07-19.pdf](https://github.com/user-attachments/files/30157611/SCH_Schematic1_2026-07-19.pdf)---
 title: "TIPTOE"
 author: "Cosmin Mare"
 description: "Multi-unit surveillance system with motion detection, night vision and multiple communication modes. Deployable and waterproof , it's the perfect awareness device and it comes with an app for alerts, photo snapshots and video + audio streaming."
@@ -43,3 +42,12 @@ Ok so it turns out once you actually understand what you're doing stuff gets eas
 <img width="2362" height="1672" alt="SCH_Schematic1_1-Main Board_2026-07-19" src="https://github.com/user-attachments/assets/e1db0436-e249-470d-9910-f166b6d42e6e" />
 
 **Total Time spent: 3 hours**
+
+# July 24: I thought the hard part is over...
+
+Pretty dramatic title, but I realized that laying out a pcb is really hard and confusing😭. I spent at least 1 hour standardizing the parts and making sure I don't have 1000 different footprints. Then after doing that I synced the schematic to the pcb instead of the pcb to the schematic and lost all progress bc I didn't realize so I had to do it again. Then I forgot about a bunch of capacitors and I had like 100 different sizes. Anyways, I went on the PCB tab and I almost fainted bc there's a bagilion lines connecting everything and I was extremely overwhelmed by that. Needless to say, I spent a bunch of time making sure everything is laid out properly and now I'm gonna start routing ts
+
+<img width="2160" height="1858" alt="PCB_PCB1_2026-07-24" src="https://github.com/user-attachments/assets/d64e4de7-51f5-4b8e-8b0d-e7e91070a430" />
+
+**Total Time spent: 4 hours**
+
