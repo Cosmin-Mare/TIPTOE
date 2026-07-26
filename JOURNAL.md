@@ -51,3 +51,17 @@ Pretty dramatic title, but I realized that laying out a pcb is really hard and c
 
 **Total Time spent: 4 hours**
 
+# July 26: I started loving PCB design
+
+So update from last time, I routed everything in that photo, decided that it's not compact enough so I redid the layout and the routing and honestly it wasn't even boring. it's like those games that you have colored circled and you need to connect them lmao. anyways, not that much else to say? except I asked a few questions on slack and people were really helpful, that's what prompted the redesign of the layout and yeah I'm looking forward to customizing this a bit, and submitting for review to see if it works. First images are v1 and the next are v2. and wow time passed so fast yesterday I started at like 3pm and in like 5 minutes it was 10pm
+<img width="2160" height="1876" alt="Finished V1" src="https://github.com/user-attachments/assets/1641d2b9-2315-4d2f-8c9e-847f8270b2a4" />
+<img width="741" height="672" alt="Screenshot 2026-07-25 at 8 27 22 PM" src="https://github.com/user-attachments/assets/f20f954b-0648-4b9a-8b0f-90c536508492" />
+<img width="2160" height="2341" alt="PCB_PCB1_1_2026-07-26" src="https://github.com/user-attachments/assets/2d94044c-51da-45fd-a156-2de79218872a" />
+<img width="2160" height="2341" alt="PCB_PCB1_1_2026-07-26_top" src="https://github.com/user-attachments/assets/eb43fd85-77b1-4dae-9c75-4b52864a7213" />
+<img width="741" height="672" alt="Screenshot 2026-07-26 at 11 11 00 AM" src="https://github.com/user-attachments/assets/faf44e98-b1e5-41ea-b83d-d2719b485720" />
+<img width="741" height="672" alt="Screenshot 2026-07-26 at 11 11 16 AM" src="https://github.com/user-attachments/assets/1c1fcf35-62a8-474c-b17b-046c0926487d" />
+<img width="474" height="441" alt="Screenshot 2026-07-26 at 11 12 51 AM" src="https://github.com/user-attachments/assets/72fce4c6-26a6-4452-b87b-d5b7438a3b3a" />
+
+**Total Time spent: 5.5 hours**
+
+
