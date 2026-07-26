@@ -64,4 +64,13 @@ So update from last time, I routed everything in that photo, decided that it's n
 
 **Total Time spent: 5.5 hours**
 
+# July 26 part 2: I spent 2h looking for PCB prices
 
+Expensive af everywhere... honestly idk what to do, I'll probably have to go full price with easyeda standard double side and then pray that the pcb works bc I don't think I can solder everything... idk, we'll see. I have a hot air gun but I'm kinda afraid I'm gonna melt stuff with it😭. anyways, here's some insane quotes: (3rd ss is just ONE SIDE, 4th one shipping is on the least expensive setting and doesnt factor component cost, i'm actually gonna rob a bank)
+
+<img width="1354" height="1038" alt="image" src="https://github.com/user-attachments/assets/3e51a5a6-ccd1-41ae-8f26-da3d5ce40293" />
+<img width="348" height="491" alt="Screenshot 2026-07-26 at 3 16 01 PM" src="https://github.com/user-attachments/assets/686b66e4-40b7-45d2-ada0-bdc6e3ddeec5" />
+<img width="704" height="457" alt="Screenshot 2026-07-26 at 3 16 17 PM" src="https://github.com/user-attachments/assets/bd3272e7-068f-40f0-b9ed-f6b91225164a" />
+<img width="370" height="219" alt="Screenshot 2026-07-26 at 3 16 52 PM" src="https://github.com/user-attachments/assets/268a93f7-d7bc-4a61-920b-471e807b4b66" />
+
+**Total Time spent: 2 hours**
