@@ -1,6 +1,8 @@
 # TIPTOE
 
 Multi-unit surveillance system with motion detection, night vision, and multiple communication modes. Deployable and waterproof — it's the perfect awareness device, with a companion app for alerts, photo snapshots, and video + audio streaming.
+<img width="681" height="713" alt="Screenshot 2026-07-27 at 9 52 12 PM" src="https://github.com/user-attachments/assets/f539a92c-e7ee-4af4-881a-41a894f9701c" />
+
 
 ## Overview
 
