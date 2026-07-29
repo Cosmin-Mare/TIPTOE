@@ -74,3 +74,12 @@ Expensive af everywhere... honestly idk what to do, I'll probably have to go ful
 <img width="370" height="219" alt="Screenshot 2026-07-26 at 3 16 52 PM" src="https://github.com/user-attachments/assets/268a93f7-d7bc-4a61-920b-471e807b4b66" />
 
 **Total Time spent: 2 hours**
+
+# July 29: Routing yet another version
+
+I replaced everything to be on one layer and rerouted everything yet again, then looked again for pricing, I had to change some components because they weren't being stocked anymore by jlcpcb and then route them again. But it's finally over and I'm done with the first prototype and ready to get it printed.
+<img width="2160" height="2233" alt="PCB_PCB1_2_2026-07-29top" src="https://github.com/user-attachments/assets/8086880e-9dd8-4abd-85c4-e00d196bd295" />
+<img width="2160" height="2233" alt="PCB_PCB1_2_2026-07-29bottom" src="https://github.com/user-attachments/assets/ced4f600-7889-4f14-94c5-b4fe04728f28" />
+
+**Total Time spent: 2 hours**
+
