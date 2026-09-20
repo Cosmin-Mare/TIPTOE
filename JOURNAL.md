@@ -89,5 +89,8 @@ first of all, here's the lapse link: https://lapse.hackclub.com/timelapse/ObhvUf
 
 So i started working again on this project bc I wanna go to hackaday supercon, and last time I stopped working on it bc i dreaded the 3d modelling. I really like 3d modelling in blender and I REALLY HATE 3d modelling in onshape or fusion. So today I started a lapse session and wanted to get past my fears and use onshape. First I had to remember if there was any parts I postponed finding and stuff like that so i checked easyeda and jlcpcb and apparently I did place and select all the correct parts. So i tried exporting the STEP file and import it into onshape and I spent a bit of time on importing it bc it kept giving me an error. Next, I reasearched the error a bit and asked claude but i wasn't able to fix it so then i searched what other software i could use that's similar to blender(kill two birds with one stone, fix the error and use a better software) and i found plasticity and I tested it to see how it works in this session and I think I know what I have to do in the next one to start work on the case. But I love plasticity and rn I feel like 3d modelling won't be such a pain anymore, but we'll see :)
 
+<img width="1624" height="1062" alt="image" src="https://github.com/user-attachments/assets/d6266170-f5e1-4f14-9fa1-a5b3673f9e49" />
+
+
 **Total Time spent: 1.3 hours**
 
