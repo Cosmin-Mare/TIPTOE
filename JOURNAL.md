@@ -94,3 +94,11 @@ So i started working again on this project bc I wanna go to hackaday supercon, a
 
 **Total Time spent: 1.3 hours**
 
+# September 20: So i got some feedback...
+
+I like doing these dramatic titles lmao it feels like a series
+
+anyways I'm rerouting my pcb the 4th time........... also I did some more work for the case (I figured out how to find 3d models for pcbs like the PIR sensor i'll be using) 
+but yeah I'm mainly rerouting my pcb and moving some stuff around.
+here's the lapses: https://lapse.hackclub.com/timelapse/rKCQ60doAXuo, 
+
