@@ -100,9 +100,14 @@ I like doing these dramatic titles lmao it feels like a series
 
 anyways I'm rerouting my pcb the 4th time........... also I did some more work for the case (I figured out how to find 3d models for pcbs like the PIR sensor i'll be using) 
 but yeah I'm mainly rerouting my pcb and moving some stuff around. it's like the 4th rerouting I'm doing and I hope last one. also tidied up the repo.
-here's the lapses: https://lapse.hackclub.com/timelapse/rKCQ60doAXuo, https://lapse.hackclub.com/timelapse/cbj4ek7eiZbi, https://lapse.hackclub.com/timelapse/IZojvrlUvxLE
+here's the lapses: https://lapse.hackclub.com/timelapse/rKCQ60doAXuo, https://lapse.hackclub.com/timelapse/cbj4ek7eiZbi, https://lapse.hackclub.com/timelapse/IZojvrlUvxLE, https://lapse.hackclub.com/timelapse/_HY0aCUIuGnW
 
+okay I'm editing this again, it's still september 22 and I'm done w the case!! It's been a long day and it's 8pm and I'm going to the gym to relax a bit. It's been fun designing the case in plasticity but i'm not looking forward to doing any more 3d modelling for at least 2 days lmao
+
+
+<img width="883" height="742" alt="Screenshot 2026-09-22 at 7 49 22 PM" src="https://github.com/user-attachments/assets/67050f0c-a780-42f3-a280-b00544253e5f" />
 <img width="2160" height="2224" alt="PCB_PCB4_2026-09-22" src="https://github.com/user-attachments/assets/9edd5bcc-b38b-4975-9bae-f67599f985ba" />
 
-**Total Time spent: 3.5 hours**
+**Total Time spent: 6 hours**
+
 
