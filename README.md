@@ -2,7 +2,7 @@
 
 Multi-unit surveillance system with motion detection, night vision, and multiple communication modes. Deployable and waterproof — it's the perfect awareness device, with a companion app for alerts, photo snapshots, and video + audio streaming.
 
-<img width="2160" height="2282" alt="PCB" src="https://github.com/user-attachments/assets/bdfc7623-a17b-4af3-bb91-b7b8b0806908" />
+<img width="2160" height="2271" alt="3D_PCB4_2026-09-22" src="https://github.com/user-attachments/assets/f74dbc18-8acc-482d-9448-abb8332f6adc" />
 <img width="2160" height="2271" alt="PCB_Back" src="https://github.com/user-attachments/assets/0670f556-60f5-4ae9-8500-404d0d544ac2" />
 <img width="4440" height="1984" alt="tiptoe_schematics_v4" src="https://github.com/user-attachments/assets/3fc36ef3-6b2b-4815-8b5e-708897cfeec0" />
 
