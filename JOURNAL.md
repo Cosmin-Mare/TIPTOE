@@ -104,5 +104,5 @@ here's the lapses: https://lapse.hackclub.com/timelapse/rKCQ60doAXuo, https://la
 
 <img width="2160" height="2224" alt="PCB_PCB4_2026-09-22" src="https://github.com/user-attachments/assets/9edd5bcc-b38b-4975-9bae-f67599f985ba" />
 
-**Total Time spent: 3 hours**
+**Total Time spent: 3.5 hours**
 
