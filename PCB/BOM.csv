@@ -1,0 +1,41 @@
+﻿No.,Quantity,Comment,Designator,Footprint,Value,Manufacturer Part,Manufacturer,Supplier Part,Supplier,LCSC Part Name,LCSC Link
+1,1,AP3602AKTR-G1,5VBoost,SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR,,AP3602AKTR-G1,DIODES(美台),C460358,LCSC,100mA 稳压电荷泵,https://www.lcsc.com/product-detail/_C460358.html
+2,2,22nF,"ACM1,ACM2",C0603,22nF,CL10B223KB8NNNC,SAMSUNG(三星),C21122,LCSC,22nF ±10% 50V,https://www.lcsc.com/product-detail/_C21122.html
+3,1,B2B-PH-K-S-GW,BATTERY,CONN-TH_B2B-PH-K-S,,B2B-PH-K-S-GW,JST,C5251182,LCSC,1x2P 间距:2mm 直插 系列:PH,https://www.lcsc.com/product-detail/_C5251182.html
+4,1,BQ25895RTWT,Bat_Charger,WQFN-24_L4.0-W4.0-P0.50-TL-EP2.7,,BQ25895RTWT,TI(德州仪器),C2861263,LCSC,I2C控制单节5A快速充电器（采用MaxCharge技术实现高输入电压和可调电压3.1A升压操作）,https://www.lcsc.com/product-detail/_C2861263.html
+5,5,10nF,"BST1,BST2,C11,C12,C13",C0603,10nF,CC0603KRX7R9BB103,YAGEO(国巨),C100042,LCSC,10nF ±10% 50V,https://www.lcsc.com/product-detail/_C100042.html
+6,1,TPS63020DSJR,Buck_Boost,VSON-14_L4.0-W3.0-P0.50-BL-EP_TI_DSJ,,TPS63020DSJR,TI(德州仪器),C15483,LCSC,高效率单电感升降压转换器,https://www.lcsc.com/product-detail/_C15483.html
+7,1,100nF,C1,C0603,100nF,CL10B104KB8NNNC,SAMSUNG(三星),C1591,LCSC,100nF ±10% 50V,https://www.lcsc.com/product-detail/_C1591.html
+8,9,10uF,"C2,C3,C6,C9,C16,C17,C18,C21,C22",C1206,10uF,CL31A106KAHNNNE,SAMSUNG(三星),C9807,LCSC,10uF ±10% 25V,https://www.lcsc.com/product-detail/_C9807.html
+9,1,1nF,C4,C0603,1nF,CC0603JRNPO9BN102,YAGEO(国巨),C106246,LCSC,1nF ±5% 50V,https://www.lcsc.com/product-detail/_C106246.html
+10,9,100nF,"C5,C7,C15,C23,C25,C26,C27,DC1_ESP,DC2_ESP",C0603,100nF,CC0603KRX7R9BB104,YAGEO(国巨),C14663,LCSC,100nF ±10% 50V,https://www.lcsc.com/product-detail/_C14663.html
+11,4,1uF,"C8,C19,C20,C24",C1206,1uF,1206B105K500NT,FH(风华),C90539,LCSC,1uF ±10% 50V,https://www.lcsc.com/product-detail/_C90539.html
+12,1,4.7uF,C10,C1206,4.7uF,1206B475K500NT,FH(风华),C29823,LCSC,4.7uF ±10% 50V,https://www.lcsc.com/product-detail/_C29823.html
+13,1,22uF,C14,C1206,22uF,TCC1206X5R226K250HT,CCTC(三环),C5448922,LCSC,22uF ±10% 25V,https://www.lcsc.com/product-detail/_C5448922.html
+14,1,820pF,C28,C0603,820pF,CC0603JRNPO9BN821,YAGEO(国巨),C107057,LCSC,820pF ±5% 50V,https://www.lcsc.com/product-detail/_C107057.html
+15,1,FPC-05F-24PH20,Camera,FPC-SMD_24P-P0.50_FPC-05F-24PH20,,FPC-05F-24PH20,XUNPU(讯普),C2856805,LCSC,翻盖式 下接 P数:24P 间距:0.5mm,https://www.lcsc.com/product-detail/_C2856805.html
+16,2,470nF,"CLAMP1,CLAMP2",C0603,470nF,CC0603KRX7R9BB474,YAGEO(国巨),C513577,LCSC,470nF ±10% 50V,https://www.lcsc.com/product-detail/_C513577.html
+17,1,2.4GHz,ESP,WIRELM-SMD_ESP32-S3-WROOM-1,2.4GHz,ESP32-S3-WROOM-1-N16R8,ESPRESSIF(乐鑫),C2913202,LCSC,不带固件 通用型Wi-Fi+低功耗蓝牙MCU模组,https://www.lcsc.com/product-detail/_C2913202.html
+18,1,MAX17048G+T10,Fuel_Gauge,TDFN-8_L2.0-W2.0-P0.50-BL-EP1.2,,MAX17048G+T10,ADI(亚德诺)/MAXIM(美信),C2682616,LCSC,3uA单节/双节电池电量计，带ModelGauge算法,https://www.lcsc.com/product-detail/_C2682616.html
+19,2,TSD001A07526A,"IO0,RST",SW-TH_4P-L6.0-W6.0-P4.50-LS6.3,,TSD001A07526A,BZCN(博众电气),C2888886,LCSC,6*6*7.5H-JZ 260gf,https://www.lcsc.com/product-detail/_C2888886.html
+20,1,PCF8574T/TR,IOExpander,SO-16_L10.3-W7.5-P1.27-LS10.3-BL,,PCF8574T/TR,HGSEMI(华冠),C2987288,LCSC,远程8位I2C总线I/O扩展器,https://www.lcsc.com/product-detail/_C2987288.html
+21,4,IR333C-A,"IR1,IR2,IR3,IR4",LED-TH_BD5.9-P2.54-RD_WHITE,,IR333C-A,EVERLIGHT(亿光),C5130,LCSC,Q档 IR333C-A,https://www.lcsc.com/product-detail/_C5130.html
+22,2,2.2uH,"L1,L2",IND-SMD_L7.1-W6.5-P5.60,2.2uH,SPM6530T-2R2M,TDK,C76855,LCSC,2.2uH ±20% 8.4A,https://www.lcsc.com/product-detail/_C76855.html
+23,1,E22-900M22S,LORA,WIRELM-SMD_E22-900M22S,,E22-900M22S,EBYTE(亿佰特),C411293,LCSC,868/915MHz贴片型LoRa模块,https://www.lcsc.com/product-detail/_C411293.html
+24,1,ICS-43434,MIC,MIC-SMD_6P-L3.5-W2.7-P0.90-BL,,ICS-43434,TDK InvenSense(应美盛),C5656610,LCSC,1.65V~3.63V,https://www.lcsc.com/product-detail/_C5656610.html
+25,1,AO3400A,MSF_IR,SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR,,AO3400A,YONGYUTAI(永裕泰),C49195711,LCSC,N沟道 耐压:30V 电流:5.8A,https://www.lcsc.com/product-detail/_C49195711.html
+26,4,100kΩ,"PD_MSF,R11,R14,R18",R0603,100kΩ,0603WAF1003T5E,UNI-ROYAL(厚声),C25803,LCSC,100kΩ ±1% 100mW 厚膜电阻,https://www.lcsc.com/product-detail/_C25803.html
+27,1,HX PM2.54-1x3P ZC-Y,PIR,HDR-TH_3P-P2.54-V-F,,HX PM2.54-1x3P ZC-Y,hanxia(韩下),C22438153,LCSC,1x3P 间距:2.54mm 直插,https://www.lcsc.com/product-detail/_C22438153.html
+28,1,15uH,QiCoil,CND-TEK-SMD_YX-A11-R501053-G0807,15uH,YX-A11-R500800-R0890,CND-tek(磁联达),C3003210,LCSC,YX-A11-R500800-R0890,https://www.lcsc.com/product-detail/_C3003210.html
+29,1,BQ51013BRHLR,QIPowerRec,VQFN-20_L4.5-W3.5-P0.50-BL-EP_BQ24100RHLR,,BQ51013BRHLR,TI(德州仪器),C55663,LCSC,高度集成的无线接收器Qi（WPC V1.1）兼容电源,https://www.lcsc.com/product-detail/_C55663.html
+30,12,10kΩ,"R1,R4,R5,R6,R7,R8,R15,R16,R17,R21,RESETB_PU,R_IO0",R0603,10kΩ,0603WAF1002T5E,UNI-ROYAL(厚声),C25804,LCSC,厚膜电阻 10kΩ ±1% 100mW,https://www.lcsc.com/product-detail/_C25804.html
+31,7,100Ω,"R2,R10,R13,R19,R20,R24,R25",R0603,100Ω,0603WAF1000T5E,UNI-ROYAL(厚声),C22775,LCSC,100Ω ±1% 100mW 厚膜电阻,https://www.lcsc.com/product-detail/_C22775.html
+32,1,68Ω,R3,R0603,68Ω,0603WAF680JT5E,UNI-ROYAL(厚声),C27592,LCSC,68Ω ±1% 100mW 厚膜电阻,https://www.lcsc.com/product-detail/_C27592.html
+33,1,560kΩ,R12,R0603,560kΩ,0603WAF5603T5E,UNI-ROYAL(厚声),C23203,LCSC,560kΩ ±1% 100mW 厚膜电阻,https://www.lcsc.com/product-detail/_C23203.html
+34,1,470Ω,R22,R0603,470Ω,0603WAF4700T5E,UNI-ROYAL(厚声),C23179,LCSC,470Ω ±1% 100mW 厚膜电阻,https://www.lcsc.com/product-detail/_C23179.html
+35,2,5.1kΩ,"R_CC5,R_CC6",R0402,5.1kΩ,0402WGF5101TCE,UNI-ROYAL(厚声),C25905,LCSC,5.1kΩ ±1% 62.5mW 厚膜电阻,https://www.lcsc.com/product-detail/_C25905.html
+36,2,22Ω,"R_CC7,R_CC8",R0402,22Ω,0402WGF220JTCE,UNI-ROYAL(厚声),C25092,LCSC,22Ω ±1% 62.5mW 厚膜电阻,https://www.lcsc.com/product-detail/_C25092.html
+37,2,1kΩ,"SCL_R_CAM,SDA_R_CAM",R0603,1kΩ,0603WAF1001T5E,UNI-ROYAL(厚声),C21190,LCSC,1kΩ ±1% 100mW 厚膜电阻,https://www.lcsc.com/product-detail/_C21190.html
+38,1,47nF,U4,C0805,47nF,CC0805KRX7R9BB473,YAGEO(国巨),C107154,LCSC,47nF ±10% 50V,https://www.lcsc.com/product-detail/_C107154.html
+39,1,TYPE-C-31-M-12,USBC,USB-C_SMD-TYPE-C-31-M-12_1,,TYPE-C-31-M-12,韩国韩荣,C165948,LCSC,Type-C 母 卧贴,https://www.lcsc.com/product-detail/_C165948.html
+40,1,ME6211C33M5G-N,Voltage_Reg,SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL,,ME6211C33M5G-N,MICRONE(南京微盟),C82942,LCSC,3.3V 500mA 6V,https://www.lcsc.com/product-detail/_C82942.html
