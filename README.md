@@ -9,7 +9,7 @@ Multi-unit surveillance system with motion detection, night vision, and multiple
 
 ## Overview
 
-TIPTOE is a custom surveillance device built around the ESP32-S3, designed for being deployed in any outside or inside environment relying on LoRa, esp now and wifi direct to talk to each other and to a receving device (a phone) through a mobile app interface (To be developed)
+TIPTOE is a custom surveillance device built around the ESP32-S3, designed for being deployed in any outside or inside environment relying on LoRa, esp now and wifi direct to talk to each other and to a receving device (a phone) through the mobile app in `code/app`.
 
 ## Features
 
@@ -39,6 +39,7 @@ Currently on the first PCB prototype ready to be printed. There have been a few 
 Next steps would be confirming the prototype by testing it in person, Making a case for it with some art, and showcasing it in the hack club slack and also on other platforms such as hackaday.
 
 ## Repo contents
+- code/ - firmware, the phone app, and release builds for Android and iOS
 - JOURNAL.md - dated build log includes time spent working and screenshots from throughout the journe 
 - BOM.xlsx - Bill of materials
 - EASYEDA.epro2 - Easyeda Pro source file
