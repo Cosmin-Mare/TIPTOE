@@ -110,4 +110,11 @@ okay I'm editing this again, it's still september 22 and I'm done w the case!! I
 
 **Total Time spent: 6 hours**
 
+# September 23: Final Stretch
+
+I asked claude to flag anything bad in the pcb and i gave it the netlist and it flagged that I didn't do the power the right way for the camera bc it actually takes in 2.8V and also 1.5V through another pin, which i had no idea, so i made 2 LDOs, also there were other things wrong like the temp sensing for the battery charger IC, current too low for the IR LEDs. so i spent some time fixing those and then placing and routing everything on an already crammed board which was pretty painful ngl. also, I quickly made a firmware and an app with AI bc I don't have the devices and idk I feel like I already know how this works and how to code it and I understood pretty much everything. I'm gonna upload the builds for the app for ios and android and I think I'm done for today, and pretty much done with the project. Tomorrow I'll do some 3d renders and I'll see if I'll take this any further making a custom handheld PCB to talk to the phone or even have its own screen, or just have one of the board be the handheld. I had a lapse session but i stopped it after an hour this morning bc I had to run some errands and i was on and off for like a couple of hours and then I didn't turn it on when I started reoruting the pcb, but I think it's fine.
+
+<img width="689" height="421" alt="Screenshot 2026-09-23 at 9 17 27 PM" src="https://github.com/user-attachments/assets/26f417d3-c609-48e7-947d-767f50604b5c" />
+
+**Total Time Spent: 3.5 hours**
 
