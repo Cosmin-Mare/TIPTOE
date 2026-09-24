@@ -9,9 +9,11 @@ Multi-unit surveillance system with motion detection, night vision, and multiple
 | Install the app | [Release v1.0.0](https://github.com/Cosmin-Mare/TIPTOE/releases/tag/v1.0.0) |
 | Design log | [`JOURNAL.md`](JOURNAL.md) |
 
-<img width="2160" height="2271" alt="3D_PCB4_2026-09-22" src="https://github.com/user-attachments/assets/f74dbc18-8acc-482d-9448-abb8332f6adc" />
-<img width="2160" height="2271" alt="PCB_Back" src="https://github.com/user-attachments/assets/0670f556-60f5-4ae9-8500-404d0d544ac2" />
-<img width="4440" height="1984" alt="tiptoe_schematics_v4" src="https://github.com/user-attachments/assets/3fc36ef3-6b2b-4815-8b5e-708897cfeec0" />
+<img width="1920" height="1080" alt="Top Right" src="https://github.com/user-attachments/assets/e1624eaf-ebf7-4f8f-96db-b40d4a7baf02" />
+<img width="1920" height="1080" alt="Top Right white nocase" src="https://github.com/user-attachments/assets/35f22d00-47d3-454c-bb44-0890de81267b" />
+
+<img width="4440" height="1914" alt="tiptoe_schematics_v5" src="https://github.com/user-attachments/assets/20c38762-5f93-4be2-8575-d7d535b98d91" />
+
 
 
 ## Overview
