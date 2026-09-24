@@ -100,7 +100,7 @@ I like doing these dramatic titles lmao it feels like a series
 
 anyways I'm rerouting my pcb the 4th time........... also I did some more work for the case (I figured out how to find 3d models for pcbs like the PIR sensor i'll be using) 
 but yeah I'm mainly rerouting my pcb and moving some stuff around. it's like the 4th rerouting I'm doing and I hope last one. also tidied up the repo.
-here's the lapses: https://lapse.hackclub.com/timelapse/rKCQ60doAXuo, https://lapse.hackclub.com/timelapse/cbj4ek7eiZbi, https://lapse.hackclub.com/timelapse/IZojvrlUvxLE, https://lapse.hackclub.com/timelapse/_HY0aCUIuGnW
+here's the lapses: https://lapse.hackclub.com/timelapse/rKCQ60doAXuo, https://lapse.hackclub.com/timelapse/cbj4ek7eiZbi, https://lapse.hackclub.com/timelapse/IZojvrlUvxLE, https://lapse.hackclub.com/tIimelapse/_HY0aCUIuGnW
 
 okay I'm editing this again, it's still september 22 and I'm done w the case!! It's been a long day and it's 8pm and I'm going to the gym to relax a bit. It's been fun designing the case in plasticity but i'm not looking forward to doing any more 3d modelling for at least 2 days lmao
 
@@ -117,4 +117,20 @@ I asked claude to flag anything bad in the pcb and i gave it the netlist and it 
 <img width="689" height="421" alt="Screenshot 2026-09-23 at 9 17 27 PM" src="https://github.com/user-attachments/assets/26f417d3-c609-48e7-947d-767f50604b5c" />
 
 **Total Time Spent: 3.5 hours**
+
+# September 24: Ready to ship!
+
+I did some last minute changes recommended to Madhav (tysm for reviewing the PCB), I organized and exported everything, I bought plasticity indie license bc it's the best 3d modelling/cad software, I then set up a scene in blender and did some lighting and some renders, I had to tweak the case a bit bc i moved the IR leds around, but everything is now done and updated. I honestly don't know how much this took bc it was a bunch of smaller tasks that I did throughout the day so I'll approximate on the lower end, but i know the setup in blender took like an hour.
+
+<img width="1920" height="1080" alt="Top white" src="https://github.com/user-attachments/assets/07cb5d81-7617-48c5-92d7-cb4cdb926100" />
+<img width="1920" height="1080" alt="Top white nocase" src="https://github.com/user-attachments/assets/27aece90-c9b2-42c5-b77c-2ab6a6e76bca" />
+<img width="1920" height="1080" alt="Top Right" src="https://github.com/user-attachments/assets/4ce3523f-972b-4f99-b128-06ad6c149a34" />
+<img width="1920" height="1080" alt="Top Right White" src="https://github.com/user-attachments/assets/9890cf6b-6b9a-4e2d-a616-88faada81030" />
+<img width="1920" height="1080" alt="Top Right white nocase" src="https://github.com/user-attachments/assets/0b7fd25b-0932-4b4a-ad22-f38d56765221" />
+<img width="1920" height="1080" alt="Top Right nocase" src="https://github.com/user-attachments/assets/95276613-a8d6-4ed8-b5cf-df9c54c8adec" />
+<img width="1920" height="1080" alt="Front" src="https://github.com/user-attachments/assets/4c4c4124-2132-41b1-8ebb-862a3fcd4f70" />
+<img width="1920" height="1080" alt="Front White" src="https://github.com/user-attachments/assets/9a5f26d6-d86a-49c3-90a0-af8b7fe4e622" />
+
+
+**Total Time Spent: 2 hours**
 
