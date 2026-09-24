@@ -1,6 +1,13 @@
 # TIPTOE
 
-Multi-unit surveillance system with motion detection, night vision, and multiple communication modes. Deployable and waterproof — it's the perfect awareness device, with a companion app for alerts, photo snapshots, and video + audio streaming.
+Multi-unit surveillance system with motion detection, night vision, and multiple communication modes. Deployable and waterproof — outdoor nodes report to a handheld, and the handheld talks to your phone.
+
+| | |
+|---|---|
+| Hardware | [`PCB/`](PCB) schematics and gerbers, [`case/`](case) print files |
+| Firmware and app | [`code/`](code) |
+| Install the app | [Release v1.0.0](https://github.com/Cosmin-Mare/TIPTOE/releases/tag/v1.0.0) |
+| Design log | [`JOURNAL.md`](JOURNAL.md) |
 
 <img width="2160" height="2271" alt="3D_PCB4_2026-09-22" src="https://github.com/user-attachments/assets/f74dbc18-8acc-482d-9448-abb8332f6adc" />
 <img width="2160" height="2271" alt="PCB_Back" src="https://github.com/user-attachments/assets/0670f556-60f5-4ae9-8500-404d0d544ac2" />
@@ -13,7 +20,7 @@ TIPTOE is a custom surveillance device built around the ESP32-S3, designed for b
 
 ## Features
 
-The device has wireless QI charging. It is designed to be fully waterproof and deployable on any surface (trees, ground, walls, etc) - Case to be designed for this. It also features a PIR sensor to detect presence, a camera to take snapshots or stream video and a mic to listen.
+The device has wireless Qi charging. It is designed to be fully waterproof and deployable on any surface (trees, ground, walls, etc). Print files for the case are in [`case/`](case). It also features a PIR sensor to detect presence, a camera to take snapshots, and a mic to listen.
 
 ## Hardware
 
@@ -25,22 +32,21 @@ The device has wireless QI charging. It is designed to be fully waterproof and d
 - MAX17048 fuel gauge for battery monitoring
 **Sensing & I/O**
 - OV3660 camera (DVP bus)
-- INMP441 digital microphone
+- ICS-43434 digital microphone
 - HC-SR501 PIR motion sensor (boosted to 5V via AP3602AKTR-G1)
 - IR LEDs for night vision (switched via AO3400A MOSFET)
 - E22-900M22S LoRa module for long-range communication
 
 ## Project Status
 
-Currently on the first PCB prototype ready to be printed. There have been a few itterations throughout the design process, for which I recommend checking the JOURNAL.md file which was written in realtime throughout the design process and is left intentionally unpolished to show the raw process of developing such a device.
+The first PCB revision is in [`PCB/`](PCB), with firmware and the phone app in [`code/`](code). [`JOURNAL.md`](JOURNAL.md) was written in realtime throughout the design process and is left unpolished on purpose, so the raw process stays visible.
 
 ## Roadmap
 
 Next steps would be confirming the prototype by testing it in person, Making a case for it with some art, and showcasing it in the hack club slack and also on other platforms such as hackaday.
 
 ## Repo contents
-- code/ - firmware, the phone app, and release builds for Android and iOS
-- JOURNAL.md - dated build log includes time spent working and screenshots from throughout the journe 
-- BOM.xlsx - Bill of materials
-- EASYEDA.epro2 - Easyeda Pro source file
-- GERBER.zip - gerber file ready for printing
+- [`code/`](code) — firmware (`src/`), phone app (`app/`), and how to flash or run the simulation
+- [`PCB/`](PCB) — `BOM.csv`, `TIPTOE.epro2`, `GERBER.zip`
+- [`case/`](case) — `TiptoeCase_print.3mf`, `TiptoeCase_NO_PCB.stl`
+- [`JOURNAL.md`](JOURNAL.md) — dated build log, including time spent and screenshots

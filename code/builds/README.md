@@ -1,15 +1,15 @@
 # Phone builds
 
-Release builds of the TIPTOE phone app (`app/`).
+Installable builds are attached to [release v1.0.0](https://github.com/Cosmin-Mare/TIPTOE/releases/tag/v1.0.0), not stored in this folder.
 
 ## Android
 
-`android/tiptoe-release.apk`
+`tiptoe-release.apk`
 
-Install it on a phone with USB debugging, or open the file on the phone and allow installs from that source. This release is signed with the debug key so it can be built without a private upload keystore. Replace that signing config before a Play Store upload.
+Install it on a phone by opening the file and allowing installs from that source. This release is signed with the debug key so it could be built without a Play upload keystore. Replace that signing config before a Play Store upload.
 
 ## iOS
 
-`ios/tiptoe.ipa`
+`tiptoe.ipa`
 
-This is an App Store package (`com.tiptoe.tiptoe`, version 1.0.0). Install it by dragging the file into Apple Transporter, then distributing it from App Store Connect. It is not a sideload build.
+This is an App Store package (`com.tiptoe.tiptoe`, version 1.0.0). Drag it into Apple Transporter, then distribute it from App Store Connect. It is not a sideload build.

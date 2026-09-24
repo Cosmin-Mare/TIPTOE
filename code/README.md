@@ -1,4 +1,14 @@
-# TIPTOE firmware
+# TIPTOE code
+
+Firmware for the rev1 board, and the phone app that talks only to the handheld.
+
+| | |
+|---|---|
+| **Firmware** | [Below](#firmware). One image for every unit. Build and flash from this folder with PlatformIO. |
+| **Phone app** | [app/README.md](app/README.md). From `app/`, run `flutter run`. The first screen can **Review with a simulation** without a board. |
+| **Install** | [Release v1.0.0](https://github.com/Cosmin-Mare/TIPTOE/releases/tag/v1.0.0) — Android APK and iOS IPA. |
+
+## Firmware
 
 One firmware image for every TIPTOE unit (rev1 PCB, `Netlist_Schematic1_2026-09-23.net`). Each unit runs in one of two roles:
 
@@ -128,7 +138,6 @@ src/tiptoe/   main.cpp (role dispatch, node wake/sleep), board.h (pin map)
                         config (NVS), console (USB bench CLI + selftest)
 docs/         APP_PROTOCOL.md — BLE/HTTP API for the phone app
 app/          Flutter phone app. See app/README.md and APP_GUIDE.md
-builds/       tiptoe-release.apk and tiptoe.ipa
 ```
 
 What's verified: it compiles against Arduino-ESP32 2.0.17, RadioLib 7.7 and NimBLE-Arduino 1.4, and the frame encryption was round-trip and tamper tested on a PC. Nothing has run on the real board yet.
