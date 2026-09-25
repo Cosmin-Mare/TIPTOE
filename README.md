@@ -57,7 +57,17 @@ Getting from bare hardware to a running unit, end to end:
 - Several parts are exposed-pad QFN/VQFN/WQFN packages (`BQ25895` WQFN-24, `TPS63020` VSON-14, `BQ51013B` VQFN-20, `MAX17048` TDFN-8) plus a 0.5 mm-pitch `ESP32-S3-WROOM-1` module and a 0.5 mm FPC camera connector — these need a stencil and reflow (or a hot-air rework station with real skill), not a hand iron alone. The straightforward path is to order PCB fab **and** SMT assembly together (e.g. JLCPCB PCBA) using the gerbers and the BOM/LCSC part numbers; leave through-hole parts (battery connector, PIR header, IR LEDs, buttons) for the assembly house to skip, and hand-solder those yourself afterward.
 - You need at least 2 populated boards to test anything (one handheld + one node); the project targets 4 deployable units total. Every board is the *same* PCB — role is chosen later in firmware.
 
-### 2. Flash firmware
+### 2. Connect the off-board modules
+
+The BOM only places connectors on the PCB — three parts plug into those connectors and aren't optional for bring-up:
+
+- **Camera** — an **OV3660** module, into the `Camera` FPC connector (`FPC-05F-24PH20`, 24-pin, 0.5mm pitch). Flip-lock connector: lift the tab, seat the FPC ribbon, press the tab back down.
+- **PIR sensor** — an **HC-SR501** module, into the 3-pin `PIR` header (`HX PM2.54-1x3P`). Match GND/OUT/VCC to the silkscreen — it's a plain 2.54mm header, so it's easy to reverse.
+- **Battery** — a single-cell Li-ion/LiPo pack terminated in a **JST-PH 2-pin** connector, into `BATTERY`. Mind polarity; the connector is keyed but double-check before first power-up. This is also how the board gets power to flash from, since USB-C is data-only (see below).
+
+None of these three ship on the assembled board — order them separately and connect them before you flash.
+
+### 3. Flash firmware
 
 Each populated board runs the same firmware image. From [`code/`](code):
 
@@ -77,7 +87,7 @@ pio device monitor       # press a key within 3 s of boot for the console
 
 Full firmware details, pin map, and console commands: [`code/README.md`](code/README.md).
 
-### 3. First bring-up checklist
+### 4. First bring-up checklist
 
 Run this on every board right after its first flash:
 
@@ -88,11 +98,11 @@ Run this on every board right after its first flash:
 5. With the handheld powered on, `send` from a node should print `reply received`. `snap` runs a full event end-to-end.
 6. `exit` → the node goes into normal sleep/wake operation.
 
-### 4. Case & final assembly
+### 5. Case & final assembly
 
 - Case model: [`case/TIPTOE_Case.stp`](case/TIPTOE_Case.stp). Print or machine it, mount the populated PCB with the camera/PIR/IR LEDs aligned to the enclosure cutouts, and close it up for a node deployment.
 
-### 5. Pair the app
+### 6. Pair the app
 
 - Install the app from [Release v1.0.0](https://github.com/Cosmin-Mare/TIPTOE/releases/tag/v1.0.0) (Android APK / iOS IPA), or run it from source — see [`code/app/README.md`](code/app/README.md).
 - Pair with the handheld from the app. The BLE pairing PIN is `TIPTOE_BLE_PASSKEY`, set in the firmware's `secrets.h` — it isn't compiled into the app.
