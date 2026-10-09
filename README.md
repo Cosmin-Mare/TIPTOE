@@ -1,6 +1,8 @@
 # TIPTOE
 
-Multi-unit surveillance system with motion detection, night vision, and multiple communication modes. Deployable and waterproof — outdoor nodes report to a handheld, and the handheld talks to your phone.
+Multi-unit outdoor surveillance system with motion detection, night vision and long-range radio. Waterproof nodes watch an area, report events to a handheld over LoRa, and the handheld passes them to your phone.
+
+One custom PCB for every unit · ESP32-S3 firmware (C++, PlatformIO) · Flutter companion app
 
 | | |
 |---|---|
@@ -18,11 +20,20 @@ Multi-unit surveillance system with motion detection, night vision, and multiple
 
 ## Overview
 
-TIPTOE is a custom surveillance device built around the ESP32-S3, designed for being deployed in any outside or inside environment relying on LoRa, esp now and wifi direct to talk to each other and to a receving device (a phone) through the mobile app in `code/app`.
+TIPTOE is a custom surveillance device built around the ESP32-S3. Units are deployed indoors or outdoors and talk to each other over LoRa for range and ESP-NOW when they're close. One unit is carried as a handheld; it collects events from the nodes and connects to a phone over BLE and Wi-Fi, where the app in [`code/app`](code/app) shows alerts and snapshots.
+
+Every unit uses the same board. Whether it acts as a node or the handheld is set in firmware.
 
 ## Features
 
-The device has wireless Qi charging. It is designed to be fully waterproof and deployable on any surface (trees, ground, walls, etc). Print files for the case are in [`case/`](case). It also features a PIR sensor to detect presence, a camera to take snapshots, and a mic to listen.
+- **Motion detection** with a PIR sensor, which wakes the unit from sleep
+- **Snapshots** from an OV3660 camera, with 940 nm IR LEDs for night vision
+- **Audio** from a digital microphone
+- **Qi wireless charging**, so the case can stay sealed, plus battery monitoring with a fuel gauge
+- **Waterproof enclosure** for mounting on trees, walls or the ground (model in [`case/`](case))
+- **No cloud or router needed:** unit-to-unit frames are AES-128-GCM encrypted and the phone link is passkey-paired BLE
+- **Maintenance web page** on each node, with over-the-air firmware updates
+- **App simulation mode**, so the whole flow can be tried without hardware
 
 ## Hardware
 
@@ -30,7 +41,7 @@ The device has wireless Qi charging. It is designed to be fully waterproof and d
 - ESP32-S3-WROOM-1-N16R8 (main MCU)
 - PCF8574T I/O expander (extra GPIO for peripherals)
 **Power**
-- P9025AC Qi wireless receiver -> BQ25895 battery charger -> TPS63020 buck-boost -> ME6211 LDO
+- BQ51013B Qi wireless receiver -> BQ25895 battery charger -> TPS63020 buck-boost -> ME6211 LDO
 - MAX17048 fuel gauge for battery monitoring
 **Sensing & I/O**
 - OV3660 camera (DVP bus)
@@ -45,7 +56,9 @@ The first PCB revision is in [`PCB/`](PCB), with firmware and the phone app in [
 
 ## Roadmap
 
-Next steps would be confirming the prototype by testing it in person, Making a case for it with some art, and showcasing it in the hack club slack and also on other platforms such as hackaday.
+- Assemble and test the first boards in person
+- Finish the enclosure design and field-test it outdoors
+- Publish a build write-up (Hack Club, Hackaday)
 
 ## Assembly
 
@@ -166,6 +179,10 @@ Not on this sheet but needed to build a unit: an **HC-SR501 PIR module** and an 
 
 ## Repo contents
 - [`code/`](code) — firmware (`src/`), phone app (`app/`), and how to flash or run the simulation
-- [`PCB/`](PCB) — `BOM.csv`, `TIPTOE.epro2`, `GERBER.zip`
-- [`case/`](case) — `TiptoeCase_print.3mf`, `TiptoeCase_NO_PCB.stl`
+- [`PCB/`](PCB) — `BOM.csv`, `TIPTOE_easyEDA.epro2`, `GERBER.zip`
+- [`case/`](case) — `TIPTOE_Case.stp`
 - [`JOURNAL.md`](JOURNAL.md) — dated build log, including time spent and screenshots
+
+---
+
+Designed and built by [Cosmin Mare](https://mare-cosmin.ro/en/).
